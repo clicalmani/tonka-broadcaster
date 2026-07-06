@@ -1,0 +1,38 @@
+{
+  "name": "tonka-broadcaster",
+  "version": "1.1.0",
+  "description": "A simple package to broadcast events from Tonka.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "test"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clicalmani/tonka-broadcaster.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vitest": "^4.1.8"
+  },
+  "keywords": [
+    "Tonka",
+    "Broadcast",
+    "Event"
+  ],
+  "author": "clicalmani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clicalmani/tonka-broadcaster/issues"
+  },
+  "homepage": "https://github.com/clicalmani/tonka-broadcaster#readme"
+}
